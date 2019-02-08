@@ -6,6 +6,8 @@ import { connect } from "react-redux";
 
 import { getSmurfs, moreSmurfs } from './../actions/index';
 
+import SmurfsTheme from '../Smurfs_Theme_Song.mp3';
+
 /*
  to wire this component up you're going to need a few things.
  I'll let you do this part on your own. 
@@ -48,9 +50,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
         <h1>SMURFS! 2.0 W/ Redux</h1>
         <img src='https://celebrateit.ie/c/177-category_default/the-smurfs.jpg' />
         <div>Welcome to THE REDUX version of Smurfbook!</div>
+        <audio source={SmurfsTheme} />
+            
+            
+          
+          
         <hr></hr>
         <div>
           <div>

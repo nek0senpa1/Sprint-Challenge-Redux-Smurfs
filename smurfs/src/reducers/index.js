@@ -1,4 +1,4 @@
-import { ADD_SMURF_START, ADD_SMURF_FAILURE, ADD_SMURF_SUCCESS } from "../actions";
+import { ADD_SMURF_START, ADD_SMURF_FAILURE, ADD_SMURF_SUCCESS, MORE } from "../actions";
 
 /*
   Be sure to import in all of the action types from `../actions`
@@ -33,6 +33,7 @@ import { ADD_SMURF_START, ADD_SMURF_FAILURE, ADD_SMURF_SUCCESS } from "../action
       ...state,
       fetchingSmurfs: false
     }
+    
 
     default:
     return state;

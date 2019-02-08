@@ -8,6 +8,9 @@ import { getSmurfs, moreSmurfs } from './../actions/index';
 
 import SmurfsTheme from '../Smurfs_Theme_Song.mp3';
 
+
+
+
 /*
  to wire this component up you're going to need a few things.
  I'll let you do this part on your own. 

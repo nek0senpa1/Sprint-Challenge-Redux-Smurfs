@@ -55,7 +55,7 @@ export const moreSmurfs = smurf => dispatch => {
   .post('http://localhost:3333/smurfs', smurf)
   
   .then (res => dispatch ({
-    type: NEW_SMURF_SUCCESS, payload: res.data
+    type: ADD_SMURF_SUCCESS, payload: res.data
   }))
 
   
